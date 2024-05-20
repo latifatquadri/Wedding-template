@@ -1,0 +1,173 @@
+html{
+    background: #FFDDDD;
+}
+.navul{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    
+}
+.nava{
+    display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nava:hover{
+    color: rgb(243, 237, 237);
+    background-color: rgb(58, 54, 54);
+}
+.navli{
+    float: left;
+}
+.homeimg{
+    background:url(wedding_couple.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.hometxt{
+    position: absolute; text-align: center;
+    color: rgb(252, 249, 249);
+   font-size: 22px;
+   left: 35%;
+   top: 20%;
+   font-family:  "Raleway" ;
+
+}
+.janeh1{
+    color: rgb(151, 147, 147);
+    text-align: center;
+    margin: 70px 50px;
+}
+.janeimg{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.janediv{
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+.janep{
+    line-height: 2;
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin: 50px auto;
+    color: #6e6d6d;
+    font-size: 18px;
+}
+.janebutton{
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    margin: 20px;
+    margin-left: 50%;
+    border-radius: 4px;
+}
+.janebutton:hover{
+    color: black;
+    background: #dad4d4;
+    border: none;
+}
+.buttondiv{
+    display: block;
+    margin: 0 auto;
+}
+.invitimg{
+    background:url(flowers.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.invitext{
+    position: absolute; text-align: center;
+    color: rgb(252, 249, 249);
+   font-size: 22px;
+   left: 35%;
+   top: 20%;
+   font-family:  "Raleway" sans-serif;
+}
+.locationimg{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.locationtext{
+    color: rgb(151, 147, 147);
+    text-align: center;
+    margin: 70px 50px;
+}
+.w2container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.whencontainer{
+    color: rgb(151, 147, 147);
+    text-align: center;
+    margin: 70px 50px;
+}
+.wherecontainer{
+    color: rgb(151, 147, 147);
+    text-align: center;
+    margin: 70px 50px;
+}
+.rsvpcontainer{
+    width: 100%;
+    background: #eec7c7;
+    line-height: 2;
+}
+.rsvpbtn{
+    background: #f89b9b;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    margin: 20px;
+    margin-left: 50%;
+    border-radius: 4px;
+}
+.rsvpbtn:hover{
+    color: black;
+    background: #a09d9d;
+    border: none;
+}
+.rsvptext{
+    width: 60%;
+    display: block;
+    text-align: center;
+    margin: 50px auto 0;
+    font-size: 18px;
+
+}
+.footer{
+    background: black;
+    color: white;
+    margin: 0 auto 50px;
+    text-align: center;
+    height: 40px;
+    display: block;
+}
+.footer p{
+    padding: 20px;
+}
